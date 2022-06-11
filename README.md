@@ -1,3 +1,5 @@
+### This Project To Delete Inactive Users if they didn't login To The machine for more than 3 months 
+
 #### Simple notes
 
 First Add your hosts to inventory file 
