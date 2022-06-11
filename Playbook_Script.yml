@@ -1,0 +1,19 @@
+---
+ - name: Run Script in all machines
+   hosts: [Group1]
+   gather_facts: false
+   tasks:
+   - name: Copy Script To Remote Machine
+     copy:
+      src: /root/Users_Login.sh
+      dest: /home/
+      mode: 755
+
+   - name: Execute The Script
+     shell: 'bash /home/Users_Login.sh'
+     register: output
+
+
+   - name: Show the Output
+     debug:
+       msg: "{{output.stdout_lines}}"
