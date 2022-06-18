@@ -1,4 +1,4 @@
-### This Project To Disable Inactive Users if they didn't login To The machine for more than 3 months 
+### This Project To Disable Inactive Local Users And Delete HomeDir For IPA Users if they didn't login To The machine for more than 3 months 
 
 #### Simple notes
 
