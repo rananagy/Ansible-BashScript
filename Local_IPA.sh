@@ -43,9 +43,7 @@ id_user=$(id -u $user)
 
         echo -e  "user $blue $user $NC is $green ACTIVE. $NC"
 
-  else
-
-      if [[ "$check_user" != "" && "id_user" -lt "60000" ]]; then
+  elif [[ "$check_user" != "" && "id_user" -lt "60000" ]]; then
 
     #local users
 
